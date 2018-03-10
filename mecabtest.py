@@ -1,9 +1,9 @@
 import MeCab
 
 # ipadic-NEologd辞書を読み込みつつTaggerを配置。
-# 辞書のパスが違う場合は適宜修正を。
+# 引数は使用する辞書のパスを指定している。
+# 違う場合は適宜修正を。
 # 辞書を使わないなら、引数は空で良い。
-
 tagger = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
 
 # Python3特有のsurfaceが使えないバグを回避。
