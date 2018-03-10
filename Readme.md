@@ -25,7 +25,7 @@ Homebrew/homebrew-core (git revision 695f341; last commit 2018-03-04)
 基本は[ここ](https://github.com/neologd/mecab-ipadic-neologd)に書いてある通り。  
 あとはPython上で動かすために[ここにある](https://qiita.com/piruty/items/5ae2c2ba660796112207)コマンドを入力します。  
 
-必要なことはリンク先に全部書いてありますが、備忘録も兼ねて私が入力したコマンドを載せておきます。
+必要なことはリンク先に全部書いてありますが、備忘録も兼ねて実際に私が入力したコマンドを載せておきます。
 
 ```
 $ brew install mecab mecab-ipadic git curl xz  
