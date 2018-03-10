@@ -39,7 +39,7 @@ $ ./bin/install-mecab-ipadic-neologd -n -a
 $ pip install mecab-python3  
 ```
 
-## 注意  
+## 使い方と注意  
 コードを書くとき[このバグ(?)](https://qiita.com/piruty/items/ce218090eae53b775b79)に注意しましょう。  
 テストコード(mecabtest.pyというのがそれです)置いておきます。  
 辞書の参照パスが違っている場合は適宜変更してください。  
